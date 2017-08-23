@@ -1,0 +1,25 @@
+{
+  "name": "warc-reader",
+  "version": "0.0.1",
+  "description": "ES6 Class to read .warc or .warc.gz file member by member in nodejs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "pending"
+  },
+  "keywords": [
+    "pending"
+  ],
+  "author": "Vikas Gautam <v33vikasgautam@gmail.com> (http://mytrikks.blogspot.com)",
+  "license": "MIT",
+  "dependencies": {
+    "file-reader": "git+https://github.com/Vikasg7/file-reader.git",
+    "gzip-reader": "git+https://github.com/Vikasg7/gzip-reader.git",
+    "typescript": "^2.4.2"
+  }
+}
